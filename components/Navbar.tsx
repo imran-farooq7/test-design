@@ -63,7 +63,7 @@ const Navbar = () => {
 			<div
 				className={`absolute ${
 					isOpen ? "block" : "hidden"
-				} p-6 rounded-lg bg-darkViolet left-6 top-20 right-6 z-[100]`}
+				} p-6 rounded-lg bg-gray-400/80 left-6 top-20 right-6 z-[100]`}
 			>
 				<div className="flex flex-col items-center justify-center w-full space-y-6 font-bold text-white rounded-sm">
 					<Link href="#" className="w-full text-center">
