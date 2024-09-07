@@ -1,4 +1,5 @@
 import Analytics from "@/components/Analytics";
+import Blog from "@/components/Blog";
 import Companies from "@/components/Companies";
 import Container from "@/components/Container";
 import Divider from "@/components/Divider";
@@ -18,6 +19,8 @@ const Home = () => {
 			<Analytics />
 			<Divider />
 			<Faqs />
+			<Divider />
+			<Blog />
 		</>
 	);
 };

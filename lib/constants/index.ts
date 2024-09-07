@@ -7,6 +7,11 @@ import People from "@/public/people.svg";
 import AnShare from "@/public/analyrics share.svg";
 import Aninst from "@/public/analyrics instant.svg";
 import Anteam from "@/public/analyrics team.svg";
+import post1 from "@/public/post 1.svg";
+import post2 from "@/public/post 2.svg";
+import post3 from "@/public/post 3.svg";
+import author1 from "@/public/author.svg";
+import author2 from "@/public/author2.svg";
 
 export const features = [
 	{
@@ -64,5 +69,37 @@ export const analytics = [
 		heading: "Manage your team with reports",
 		description:
 			"Measure what matters with Untitled easy-to-use reports. You can filter, export, and drilldown on the data in a couple clicks.",
+	},
+];
+export const blogPosts = [
+	{
+		img: post1,
+		category: "design",
+		heading: "UX review presentations",
+		description:
+			"How do you create compelling presentations that wow your colleagues and impress your managers?",
+		authorImg: author1,
+		date: "20 Jan 2024",
+		author: "Olivia Rhye",
+	},
+	{
+		img: post2,
+		heading: "Migrating to Linear 101",
+		category: "product",
+		description:
+			"Linear helps streamline software projects, sprints, tasks, and bug Letter spacing. Here how to get started.",
+		authorImg: author2,
+		date: "18 Jan 2024",
+		author: "Phoenix Baker",
+	},
+	{
+		img: post3,
+		heading: "Building your API stack",
+		category: "Software Engineering",
+		description:
+			"The rise of RESTful APIs has been met by a rise in tools for creating, testing, and managing them.",
+		authorImg: author1,
+		date: "21 Jan 2024",
+		author: "Lana Steiner",
 	},
 ];
